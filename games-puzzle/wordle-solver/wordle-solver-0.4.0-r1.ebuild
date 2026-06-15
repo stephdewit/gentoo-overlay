@@ -18,5 +18,6 @@ SLOT="0"
 KEYWORDS="amd64 ~x86"
 
 DEPEND=""
+BDEPEND=">=dev-lang/go-1.25"
 RDEPEND="${DEPEND}
 	sys-apps/miscfiles"
